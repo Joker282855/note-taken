@@ -3,8 +3,10 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3001, () => {
-    console.log(`Server now runn on port 3001`);
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+    console.log(`Server now runn on port ${PORT}!`);
 });
 
 function filterByQuery(query, notesArray) {
