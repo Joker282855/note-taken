@@ -1,6 +1,39 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+        {
+            "id": "0",
+            "title": "Rena's Birthday Party Supplies",
+            "text": "Remeber to pick up Birthday supplies for Renae at Jackson Party Outfitters at 1:00 in the afternoon"
+        },
+        {
+            "id": "1",
+            "title": "Johns Basketball Game",
+            "text": "Johns basketball team has thir first game tonight at 7:00 p.m."
+        },
+        {
+            "id": "2",
+            "title": "Sarahs Graduation Ceremnoy",
+            "text": "Sarah graduation ceremony will be held at Aunt Janes place on Wednesday at 7:00 p.m."
+        },
+        {
+            "id": "3",
+            "title": "Swimming Party Preparations",
+            "text": "Remeber to prepare the pool for the swimming party at 4:00 p.m."
+        },
+        {
+            "id": "4",
+            "title": "Parents Return From Vacation",
+            "text": "My parents flight will arrive at the airport at 3:00 in the afternoon on Saturday"
+        },
+        {
+            "id": "5",
+            "title": "Trip to Hawaii in June",
+            "text": "We will be traveling to Hawaii on June 25th"
+        },
+        {
+            "id": "6",
+            "title": "Find a Babysitter During Datenight",
+            "text": "Remember to ask stephanie if she can babysit our son on Friday Night"
+        }
+    ]
+}
