@@ -14,4 +14,10 @@ We were tasked with building the back end for an application that already had th
 I was able to achieve the tasks by reviewing the module and assimilating the concepts to what we were asked to do. I was also able to use past challenges for reference as well when it came to creating the readme file. Staying on course for today was also a big help in getting this assignment done
 
 # Link to Deployed Applicaiton:
-<a href="">
+<a href="https://sleepy-stream-94662.herokuapp.com/notes">Link to Deployed Application</a>
+
+# Screenshot for Deployed Application:
+<img src="./public/images/IMG-1153.jpg" alt="Screenshot for Note Taker" />
+
+# Contributors
+Made with Love By Josh Jackson
