@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.static('public'));
@@ -67,7 +68,7 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
-app.listen(3001, () => {
-    console.log(`Server no runn on port 3001`);
+app.listen(PORT, () => {
+    console.log(`API server now on ${PORT}!`);
 });
 
