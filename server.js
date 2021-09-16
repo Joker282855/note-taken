@@ -3,9 +3,8 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3001, () => {
-    console.log(`Server now runn on port 3001`);
-});
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 function filterByQuery(query, notesArray) {
     let filteredResults = notesArray;
@@ -18,10 +17,29 @@ function filterByQuery(query, notesArray) {
     return filteredResults;
 }
 
+function createNewNote(body, notesArray) {
+    const note = body;
+    notesArray.push(note);
+
+    return note;
+}
+
 app.get('/api/notes', (req, res) => {
     let results = notes;
     if (req.query) {
         results = filterByQuery(req.query, results);
     }
     res.json(results);
+});
+
+app.post('/api/notes', (req, res) => {
+    req.body.id = notes.length.toString();
+
+    const note = createNewNote(req.body, notes);
+    
+    res.json(notes);  
+});
+
+app.listen(3001, () => {
+    console.log(`Server no runn on port 3001`);
 });
