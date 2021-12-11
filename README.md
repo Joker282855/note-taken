@@ -1,8 +1,11 @@
 # Title
 Note Taker and Organizer
 
-# Descprition
-We were tasked with building the back end for an application that already had the front end part done. The back end part included created the server.js file and creating the get and post routes for the array we were using as our database. We also had to create get routes for our two html files that were given in our starter code. The front end part of the application allows the users to add notes and save them to a list of notes that were already loaded onto the screen.
+# Application Descprition
+In this challenge for module 11 I was tasked with creating the backend side of a front end application called note taker. Note taker is an application where people can write down events they have going on in their lives. This application attempts to solve the problem of people forgetting what events they need to attend by giving them a way to remeber what events they need to attend on a daily basis. By remebering what events on going on in their lives people can have structure in their lives and can be productive with how they spend their time. 
+
+# Application Overview
+
 
 # Assignment Tasks
 1. When the user logs into the application they are given a landing page where they can click a link to go the page with the notes
