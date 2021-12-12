@@ -13,8 +13,14 @@ The first step to run this application on another computer is to make sure you h
 - <a href="https://nodejs.org/en/">Node.js Download For Windows</a>
 - <a href="https://nodejs.org/en/">Node.js Download For Macs</a>
 
-The next step is to clone the code from my github repository by clicking on the link to my github repository which is listed below
-- <a href="">
+The next step is to clone the code from my github repository for this application. To clone the code for application click on the green code button you will see at the top right 
+corner of the page. Make sure to choose the link that is listed under the https because the other option requires a security key to run on other computers. Type the command git
+clone in the terminal in your visual studio code and then doulbe clike to put the https link after the git clone command. The code will be added to the computer after the git clone command has been entered. 
+
+After the rpository has been cloned there will be some packages that need to be installed from the Node.js library. The packages that need to be downloaded are express, path, and fs.
+To download the necessary packages a peron will need to type the command npm install express path fs inside the visual studio code ternminal. After gettinng all of the packages added the last thing to do is run the command npm start in the terminal to start the application. After entering npm start in the terminal you can type in http://localhost:3001 to pull the application up on the web.
+
+# 
 
 # Assignment Tasks
 1. When the user logs into the application they are given a landing page where they can click a link to go the page with the notes
