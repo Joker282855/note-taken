@@ -38,7 +38,7 @@ To download the necessary packages a peron will need to type the command npm ins
 # Tasks Achieved By:
 I was able to achieve the tasks by reviewing the module and assimilating the concepts to what we were asked to do. I was also able to use past challenges for reference as well when it came to creating the readme file. Staying on course for today was also a big help in getting this assignment done
 
-# Link To Deployed Applicaiton:
+# Link To Deployed Application:
 <a href="https://sleepy-stream-94662.herokuapp.com/notes">Link to Deployed Application</a>
 
 # Screenshot For Deployed Application:
