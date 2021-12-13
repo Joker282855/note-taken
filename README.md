@@ -42,7 +42,7 @@ I was able to achieve the tasks by reviewing the module and assimilating the con
 <a href="https://sleepy-stream-94662.herokuapp.com/notes">Link to Deployed Application</a>
 
 # Screenshot For Deployed Application:
-<img src="./public/images/IMG-1153.jpg" alt="Screenshot for Note Taker" />
+<img src="./public/images/noteshot.png" alt="Screenshot for Note Taker" />
 
 # Contributors
 Made with Love By Josh Jackson
