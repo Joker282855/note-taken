@@ -17,11 +17,11 @@ In this challenge for module 11 I was tasked with creating the backend side of a
 We established a notes array in our db.json file to serve as the database for this application. The routes used to get the notes from the array or adding new notes to the array are all located in our server file. We connected the routes in the server file to the database by importing the db.json file into our server file. The front end was given to me as part of the challenge. The index.html file serves as the landing page for the front end while the notes.htmlm file serves as the page where notes can be added to the application. The landing page has a button that moves the user to the page where notes are added once it is clicked. The public folder has the javascript files and css that give the front end funtionality and has the css that gives the application its design. The application is designed with an aside section on the left that has all of the notes inside the array of out database. The section next to the aside section is where a user can add notes and recored events. A plus sign in the at the top of  the application is used to save notes to the application after they have been written down.
 
 # Running The Application
-The first step to run this application on another computer is to make sure you have Visual Studio Code, Gitbash, Insomnia and Node.js donwloaded onto your computer. The links to download this software will be listed below. 
+The first step to run this application on another computer is to make sure you have Visual Studio Code, Gitbash, an internet browser like Google Chrome and Node.js donwloaded onto your computer. The links to download this software will be listed below. 
 - <a href="https://code.visualstudio.com/docs/setup/setup-overview">Visual Studio Code Downlaod</a>
 - <a href="https://nodejs.org/en/">Node.js Download</a>
 - <a href="https://git-scm.com/downloads">Gitbash Download</a>
-- <a href="https://insomnia.rest/">Insomnia Download</a>
+- <a href="https://www.google.com/chrome/">Google Chrome Download</a>
 
 The next step is to clone the code from my github repository for this application. To clone the code for application click on the green code button you will see at the top right 
 corner of the page. Make sure to choose the link that is listed under the https because the other option requires a security key to run on other computers. Type the command git
